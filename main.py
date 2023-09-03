@@ -16,8 +16,8 @@ def cmds(message):
 def cmds(message):
     bot.reply_to(message,text='''
 command - usage
-/scr - /scr heckerdrops 100 531462
-/scrsk - /scrsk heckerdrops 100
+/scr - /scr undedychatchk 100 531462
+/scrsk - /scrsk undefychatchk 100
     ''')
 
 @bot.message_handler(commands=['scr'])
